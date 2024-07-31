@@ -1,0 +1,32 @@
+
+.card {
+  border: 1px solid #c6c6c6;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 15px;
+  text-align: center;
+}
+
+.cover-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.more-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.more-link:hover {
+  background-color: #0056b3;
+}
+
+.justify-text {
+  text-align: justify;
+}

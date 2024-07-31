@@ -1,0 +1,10 @@
+<app-toolbar></app-toolbar>
+<div class="card" *ngFor="let book of books">
+  <img [src]="book.cover_url" alt="Cover Image" class="cover-image" />
+  <h2>{{ book.title }}</h2>
+  <p [innerHTML]="book.description" class="justify-text"></p>
+  <p class="justify-text"><strong>ISBN:</strong> {{ book.isbn }}</p>
+  <p class="justify-text"><strong>Format:</strong> {{ book.format }}</p>
+  <a [href]="book.web_url" class="more-link" target="_blank">More</a>
+</div>
+<app-footer></app-footer>
